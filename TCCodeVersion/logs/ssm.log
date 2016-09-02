@@ -1,0 +1,89 @@
+[INFO] [2016-09-02 11:29:53][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 11:29:53][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-02 11:29:53][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: hello world!
+[INFO] [2016-09-02 13:12:18][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 13:12:18][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-02 13:12:18][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: hello world!
+[INFO] [2016-09-02 13:19:27][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 13:19:27][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-02 13:19:30][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-02 13:50:14][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 13:50:14][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-02 13:50:16][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-02 14:33:23][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 14:33:23][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-02 14:33:23][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: hello world!
+[INFO] [2016-09-02 14:43:36][org.apache.mina.filter.logging.LoggingFilter]CREATED
+[WARN] [2016-09-02 14:43:36][org.apache.mina.filter.logging.LoggingFilter]EXCEPTION :
+java.lang.IllegalArgumentException: Other filter is using the same name 'codec'
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.checkAddable(DefaultIoFilterChain.java:447)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.addLast(DefaultIoFilterChain.java:188)
+	at com.tccv.mina.MinaClientHandler.sessionCreated(MinaClientHandler.java:22)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.sessionCreated(DefaultIoFilterChain.java:776)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.filter.logging.LoggingFilter.sessionCreated(LoggingFilter.java:220)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionCreated(DefaultIoFilterChain.java:452)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionCreated(IoServiceListenerSupport.java:212)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.addNow(AbstractPollingIoProcessor.java:518)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.handleNewSessions(AbstractPollingIoProcessor.java:487)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1111)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2016-09-02 14:43:36][org.apache.mina.core.service.IoHandlerAdapter]EXCEPTION, please implement com.tccv.mina.MinaClientHandler.exceptionCaught() for proper handling:
+java.lang.IllegalArgumentException: Other filter is using the same name 'codec'
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.checkAddable(DefaultIoFilterChain.java:447)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.addLast(DefaultIoFilterChain.java:188)
+	at com.tccv.mina.MinaClientHandler.sessionCreated(MinaClientHandler.java:22)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.sessionCreated(DefaultIoFilterChain.java:776)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.filter.logging.LoggingFilter.sessionCreated(LoggingFilter.java:220)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionCreated(DefaultIoFilterChain.java:452)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionCreated(IoServiceListenerSupport.java:212)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.addNow(AbstractPollingIoProcessor.java:518)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.handleNewSessions(AbstractPollingIoProcessor.java:487)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1111)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] [2016-09-02 14:43:36][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 14:43:36][org.apache.mina.filter.logging.LoggingFilter]SENT: 知识
+[INFO] [2016-09-02 14:43:36][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-02 14:44:01][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 14:44:01][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-02 14:44:18][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 14:44:18][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-02 14:48:53][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 14:48:53][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-02 14:48:53][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: hello world!
+[INFO] [2016-09-02 15:03:18][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 15:03:18][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-02 15:04:03][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-02 15:04:03][org.apache.mina.filter.logging.LoggingFilter]SENT: 知识
+[INFO] [2016-09-02 15:04:03][org.apache.mina.filter.logging.LoggingFilter]CLOSED

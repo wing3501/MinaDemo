@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8FBE4E1D7943AD001B7776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8FBE4D1D7943AD001B7776 /* main.m */; };
+		BA8FBE511D7943AD001B7776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8FBE501D7943AD001B7776 /* AppDelegate.m */; };
+		BA8FBE541D7943AD001B7776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8FBE531D7943AD001B7776 /* ViewController.m */; };
+		BA8FBE571D7943AD001B7776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8FBE551D7943AD001B7776 /* Main.storyboard */; };
+		BA8FBE591D7943AD001B7776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8FBE581D7943AD001B7776 /* Assets.xcassets */; };
+		BA8FBE5C1D7943AD001B7776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8FBE5A1D7943AD001B7776 /* LaunchScreen.storyboard */; };
+		FDD7E2C29C3C9C0145ADD934 /* libPods-MinaClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C937A01617776736E51C1724 /* libPods-MinaClient.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77A4CA004FBF1B5E33D166B9 /* Pods-MinaClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinaClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinaClient/Pods-MinaClient.debug.xcconfig"; sourceTree = "<group>"; };
+		8ED6249C4D444D2485B30DB5 /* Pods-MinaClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinaClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinaClient/Pods-MinaClient.release.xcconfig"; sourceTree = "<group>"; };
+		BA8FBE491D7943AD001B7776 /* MinaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8FBE4D1D7943AD001B7776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA8FBE4F1D7943AD001B7776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA8FBE501D7943AD001B7776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA8FBE521D7943AD001B7776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA8FBE531D7943AD001B7776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA8FBE561D7943AD001B7776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8FBE581D7943AD001B7776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8FBE5B1D7943AD001B7776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8FBE5D1D7943AD001B7776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C937A01617776736E51C1724 /* libPods-MinaClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MinaClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8FBE461D7943AD001B7776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD7E2C29C3C9C0145ADD934 /* libPods-MinaClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2659C7478BF95624EF1E2C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C937A01617776736E51C1724 /* libPods-MinaClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40F3F72D45B63D82C55EF85C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A4CA004FBF1B5E33D166B9 /* Pods-MinaClient.debug.xcconfig */,
+				8ED6249C4D444D2485B30DB5 /* Pods-MinaClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA8FBE401D7943AD001B7776 = {
+			isa = PBXGroup;
+			children = (
+				BA8FBE4B1D7943AD001B7776 /* MinaClient */,
+				BA8FBE4A1D7943AD001B7776 /* Products */,
+				40F3F72D45B63D82C55EF85C /* Pods */,
+				2659C7478BF95624EF1E2C0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8FBE4A1D7943AD001B7776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8FBE491D7943AD001B7776 /* MinaClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8FBE4B1D7943AD001B7776 /* MinaClient */ = {
+			isa = PBXGroup;
+			children = (
+				BA8FBE4F1D7943AD001B7776 /* AppDelegate.h */,
+				BA8FBE501D7943AD001B7776 /* AppDelegate.m */,
+				BA8FBE521D7943AD001B7776 /* ViewController.h */,
+				BA8FBE531D7943AD001B7776 /* ViewController.m */,
+				BA8FBE551D7943AD001B7776 /* Main.storyboard */,
+				BA8FBE581D7943AD001B7776 /* Assets.xcassets */,
+				BA8FBE5A1D7943AD001B7776 /* LaunchScreen.storyboard */,
+				BA8FBE5D1D7943AD001B7776 /* Info.plist */,
+				BA8FBE4C1D7943AD001B7776 /* Supporting Files */,
+			);
+			path = MinaClient;
+			sourceTree = "<group>";
+		};
+		BA8FBE4C1D7943AD001B7776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8FBE4D1D7943AD001B7776 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8FBE481D7943AD001B7776 /* MinaClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8FBE601D7943AD001B7776 /* Build configuration list for PBXNativeTarget "MinaClient" */;
+			buildPhases = (
+				7947952F87C629640180FC7C /* [CP] Check Pods Manifest.lock */,
+				BA8FBE451D7943AD001B7776 /* Sources */,
+				BA8FBE461D7943AD001B7776 /* Frameworks */,
+				BA8FBE471D7943AD001B7776 /* Resources */,
+				A017158836D3F9A6C2A8A96E /* [CP] Embed Pods Frameworks */,
+				88E9ACE77975E864582D622D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinaClient;
+			productName = MinaClient;
+			productReference = BA8FBE491D7943AD001B7776 /* MinaClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8FBE411D7943AD001B7776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = styf;
+				TargetAttributes = {
+					BA8FBE481D7943AD001B7776 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BA8FBE441D7943AD001B7776 /* Build configuration list for PBXProject "MinaClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8FBE401D7943AD001B7776;
+			productRefGroup = BA8FBE4A1D7943AD001B7776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8FBE481D7943AD001B7776 /* MinaClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8FBE471D7943AD001B7776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8FBE5C1D7943AD001B7776 /* LaunchScreen.storyboard in Resources */,
+				BA8FBE591D7943AD001B7776 /* Assets.xcassets in Resources */,
+				BA8FBE571D7943AD001B7776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7947952F87C629640180FC7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88E9ACE77975E864582D622D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinaClient/Pods-MinaClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A017158836D3F9A6C2A8A96E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinaClient/Pods-MinaClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8FBE451D7943AD001B7776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8FBE541D7943AD001B7776 /* ViewController.m in Sources */,
+				BA8FBE511D7943AD001B7776 /* AppDelegate.m in Sources */,
+				BA8FBE4E1D7943AD001B7776 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA8FBE551D7943AD001B7776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8FBE561D7943AD001B7776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8FBE5A1D7943AD001B7776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8FBE5B1D7943AD001B7776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8FBE5E1D7943AD001B7776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA8FBE5F1D7943AD001B7776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8FBE611D7943AD001B7776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A4CA004FBF1B5E33D166B9 /* Pods-MinaClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MinaClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = styf.MinaClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8FBE621D7943AD001B7776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED6249C4D444D2485B30DB5 /* Pods-MinaClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MinaClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = styf.MinaClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8FBE441D7943AD001B7776 /* Build configuration list for PBXProject "MinaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8FBE5E1D7943AD001B7776 /* Debug */,
+				BA8FBE5F1D7943AD001B7776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8FBE601D7943AD001B7776 /* Build configuration list for PBXNativeTarget "MinaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8FBE611D7943AD001B7776 /* Debug */,
+				BA8FBE621D7943AD001B7776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8FBE411D7943AD001B7776 /* Project object */;
+}
