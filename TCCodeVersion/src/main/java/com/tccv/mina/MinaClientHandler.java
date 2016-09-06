@@ -1,5 +1,6 @@
 package com.tccv.mina;
 
+import com.tccv.mina.codec.appPOS.pojo.AppPOSresult;
 import org.apache.mina.core.filterchain.IoFilter;
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IoSession;
@@ -19,15 +20,18 @@ public class MinaClientHandler extends IoHandlerAdapter {
 
     @Override
     public void sessionCreated(IoSession session) throws Exception {
-        session.getFilterChain().addLast("codec", CODEC_FILTER);
-        session.getFilterChain().addLast("logger", LOGGING_FILTER);
+//        session.getFilterChain().addLast("codec", CODEC_FILTER);
+//        session.getFilterChain().addLast("logger", LOGGING_FILTER);
     }
 
     @Override
     public void messageReceived(IoSession session, Object message)
             throws Exception {
-        String msg = (String) message;
-        System.out.println("Client Received: " + msg);
+        if (message instanceof AppPOSresult){
+            AppPOSresult result = (AppPOSresult)message;
+            System.out.println("客户端收到消息: " + result.getJsonMsg());
+        }
+
     }
 
 }

@@ -87,3 +87,150 @@ java.lang.IllegalArgumentException: Other filter is using the same name 'codec'
 [INFO] [2016-09-02 15:04:03][org.apache.mina.filter.logging.LoggingFilter]OPENED
 [INFO] [2016-09-02 15:04:03][org.apache.mina.filter.logging.LoggingFilter]SENT: 知识
 [INFO] [2016-09-02 15:04:03][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-05 09:56:05][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 09:56:05][org.apache.mina.filter.logging.LoggingFilter]SENT: hello0hello1hello2hello3hello4hello5hello6hello7hello8hello9hello10hello11hello12hello13hello14hello15hello16hello17hello18hello19hello20hello21hello22hello23hello24hello25hello26hello27hello28hello29hello30hello31hello32hello33hello34hello35hello36hello37hello38hello39hello40hello41hello42hello43hello44hello45hello46hello47hello48hello49hello50hello51hello52hello53hello54hello55hello56hello57hello58hello59hello60hello61hello62hello63hello64hello65hello66hello67hello68hello69hello70hello71hello72hello73hello74hello75hello76hello77hello78hello79hello80hello81hello82hello83hello84hello85hello86hello87hello88hello89hello90hello91hello92hello93hello94hello95hello96hello97hello98hello99
+[INFO] [2016-09-05 09:56:07][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]SENT: hello1hello2hello3hello4hello5hello6hello7hello8hello9hello10
+hello11hello12hello13hello14hello15hello16hello17hello18hello19hello20
+hello21hello22hello23hello24hello25hello26hello27hello28hello29hello30
+hello31hello32hello33hello34hello35hello36hello37hello38hello39hello40
+hello41hello42hello43hello44hello45hello46hello47hello48hello49hello50
+hello51hello52hello53hello54hello55hello56hello57hello58hello59hello60
+hello61hello62hello63hello64hello65hello66hello67hello68hello69hello70
+hello71hello72hello73hello74hello75hello76hello77hello78hello79hello80
+hello81hello82hello83hello84hello85hello86hello87hello88hello89hello90
+hello91hello92hello93hello94hello95hello96hello97hello98hello99hello100
+
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:25][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:26][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:26][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:26][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:26][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:26][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:57:26][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 09:59:20][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 09:59:20][org.apache.mina.filter.logging.LoggingFilter]SENT: hello1hello2hello3hello4hello5hello6hello7hello8hello9hello10hello11hello12hello13hello14hello15hello16hello17hello18hello19hello20hello21hello22hello23hello24hello25hello26hello27hello28hello29hello30hello31hello32hello33hello34hello35hello36hello37hello38hello39hello40hello41hello42hello43hello44hello45hello46hello47hello48hello49hello50hello51hello52hello53hello54hello55hello56hello57hello58hello59hello60hello61hello62hello63hello64hello65hello66hello67hello68hello69hello70hello71hello72hello73hello74hello75hello76hello77hello78hello79hello80hello81hello82hello83hello84hello85hello86hello87hello88hello89hello90hello91hello92hello93hello94hello95hello96hello97hello98hello99hello100
+[INFO] [2016-09-05 09:59:20][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 10:00:45][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 10:00:45][org.apache.mina.filter.logging.LoggingFilter]SENT: hello1hello2hello3hello4hello5hello6hello7hello8hello9hello10hello11hello12hello13hello14hello15hello16hello17hello18hello19hello20hello21hello22hello23hello24hello25hello26hello27hello28hello29hello30hello31hello32hello33hello34hello35hello36hello37hello38hello39hello40hello41hello42hello43hello44hello45hello46hello47hello48hello49hello50hello51hello52hello53hello54hello55hello56hello57hello58hello59hello60hello61hello62hello63hello64hello65hello66hello67hello68hello69hello70hello71hello72hello73hello74hello75hello76hello77hello78hello79hello80hello81hello82hello83hello84hello85hello86hello87hello88hello89hello90hello91hello92hello93hello94hello95hello96hello97hello98hello99hello100
+[INFO] [2016-09-05 10:00:46][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 10:03:44][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 10:03:44][org.apache.mina.filter.logging.LoggingFilter]SENT: hello1hello2hello3hello4hello5hello6hello7hello8hello9hello10hello11hello12hello13hello14hello15hello16hello17hello18hello19hello20hello21hello22hello23hello24hello25hello26hello27hello28hello29hello30hello31hello32hello33hello34hello35hello36hello37hello38hello39hello40hello41hello42hello43hello44hello45hello46hello47hello48hello49hello50hello51hello52hello53hello54hello55hello56hello57hello58hello59hello60hello61hello62hello63hello64hello65hello66hello67hello68hello69hello70hello71hello72hello73hello74hello75hello76hello77hello78hello79hello80hello81hello82hello83hello84hello85hello86hello87hello88hello89hello90hello91hello92hello93hello94hello95hello96hello97hello98hello99hello100
+[INFO] [2016-09-05 10:03:46][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: [{"id":19,"appName":"TCFreeUser","appKey":"0e484a2f-cbe0-4425-a86d-f94c3eb9dfc5","appUrl":"/appfile/2016-06-02/9efdc439-9d0f-4d08-bab6-d9e5fede3a97.zip","appVersion":"1","isDelete":0,"createTime":1464848182000,"updateTime":1464848182000,"isForced":0,"displayVersion":null,"isReleased":1}]
+[INFO] [2016-09-05 14:30:24][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 14:30:24][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-05 14:30:25][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: hello world!
+[INFO] [2016-09-05 14:33:05][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-05 14:33:05][org.apache.mina.filter.logging.LoggingFilter]SENT: hello world!
+[INFO] [2016-09-05 14:33:06][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: Server Send: hello world!
+[INFO] [2016-09-05 14:33:16][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: 服务端发送心跳包
+[WARN] [2016-09-06 16:13:21][org.apache.mina.core.service.IoHandlerAdapter]EXCEPTION, please implement com.tccv.mina.MinaClientHandler.exceptionCaught() for proper handling:
+java.lang.IllegalArgumentException: Other filter is using the same name 'codec'
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.checkAddable(DefaultIoFilterChain.java:447)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.addLast(DefaultIoFilterChain.java:188)
+	at com.tccv.mina.MinaClientHandler.sessionCreated(MinaClientHandler.java:23)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.sessionCreated(DefaultIoFilterChain.java:776)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:105)
+	at org.apache.mina.filter.logging.MdcInjectionFilter.filter(MdcInjectionFilter.java:135)
+	at org.apache.mina.filter.util.CommonEventFilter.sessionCreated(CommonEventFilter.java:45)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:917)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionCreated(DefaultIoFilterChain.java:452)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionCreated(IoServiceListenerSupport.java:212)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.addNow(AbstractPollingIoProcessor.java:518)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.handleNewSessions(AbstractPollingIoProcessor.java:487)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1111)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] [2016-09-06 16:14:25][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:14:25][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:18:38][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:18:38][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:19:09][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:19:09][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:20:26][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 16:20:52][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:20:52][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:21:53][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 16:33:38][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:33:38][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:34:54][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:34:54][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:40:00][org.apache.mina.filter.logging.LoggingFilter]CREATED
+[INFO] [2016-09-06 16:40:00][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:40:00][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:40:00][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:40:00][org.apache.mina.filter.logging.LoggingFilter]RECEIVED: HeapBuffer[pos=0 lim=51 cap=2048: 63 6F 6D 2E 74 63 63 76 2E 6D 69 6E 61 2E 63 6F...]
+[WARN] [2016-09-06 16:40:00][org.apache.mina.core.service.IoHandlerAdapter]EXCEPTION, please implement com.tccv.mina.POSHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: No appropriate message decoder: 63 6F 6D 2E 74 63 63 76 2E 6D 69 6E 61 2E 63 6F 64 65 63 2E 61 70 70 50 4F 53 2E 70 6F 6A 6F 2E 41 70 70 50 4F 53 6D 73 67 40 35 66 31 35 30 34 33 35 0A (Hexdump: 63 6F 6D 2E 74 63 63 76 2E 6D 69 6E 61 2E 63 6F 64 65 63 2E 61 70 70 50 4F 53 2E 70 6F 6A 6F 2E 41 70 70 50 4F 53 6D 73 67 40 35 66 31 35 30 34 33 35 0A)
+	at org.apache.mina.filter.codec.demux.DemuxingProtocolDecoder.doDecode(DemuxingProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:181)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:231)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:947)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:703)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:659)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:648)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1120)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] [2016-09-06 16:40:05][org.apache.mina.filter.logging.LoggingFilter]IDLE
+[INFO] [2016-09-06 16:40:10][org.apache.mina.filter.logging.LoggingFilter]IDLE
+[INFO] [2016-09-06 16:40:15][org.apache.mina.filter.logging.LoggingFilter]IDLE
+[INFO] [2016-09-06 16:40:20][org.apache.mina.filter.logging.LoggingFilter]IDLE
+[INFO] [2016-09-06 16:40:20][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 16:42:46][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:42:46][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@5f150435
+[INFO] [2016-09-06 16:44:45][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:44:45][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 16:56:24][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 16:56:24][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:02:47][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 17:04:13][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:04:13][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:04:37][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 17:09:08][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:09:08][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:09:49][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 17:16:10][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:16:10][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:19:46][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:19:46][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:22:03][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:22:03][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:22:32][org.apache.mina.filter.logging.LoggingFilter]CLOSED
+[INFO] [2016-09-06 17:24:47][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:24:47][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:30:03][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:30:03][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5
+[INFO] [2016-09-06 17:34:20][org.apache.mina.filter.logging.LoggingFilter]OPENED
+[INFO] [2016-09-06 17:34:20][org.apache.mina.filter.logging.LoggingFilter]SENT: com.tccv.mina.codec.appPOS.pojo.AppPOSmsg@704921a5

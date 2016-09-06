@@ -46,4 +46,10 @@ public class CodeFactory implements ProtocolCodecFactory {
     public void setDecoderMaxLineLength(int maxLineLength) {
         decoder.setMaxLineLength(maxLineLength);
     }
+
+
+    public static void main(String[] args) {
+        POScodecFactory f = new POScodecFactory();
+        System.out.println(f);
+    }
 }

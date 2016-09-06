@@ -6,6 +6,7 @@ import com.tccv.core.util.ajax.AjaxUtils;
 import com.tccv.core.util.json.JsonUtils;
 import com.tccv.pojo.AppVersion;
 import com.tccv.service.AppVersionService;
+import org.apache.mina.core.buffer.IoBuffer;
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
@@ -30,16 +31,16 @@ public class MinaProtocolHandler extends IoHandlerAdapter {
     @Override
     public void messageReceived(IoSession session, Object message) {
         String msg = (String) message;
-        System.out.println("Server Received: " + msg);
+
         //测试
         List<AppVersion> list = appVersionService.selectAllApp();
-        try {
-            msg = JsonUtils.mapper.writeValueAsString(list);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            msg = JsonUtils.mapper.writeValueAsString(list);
+//        } catch (JsonProcessingException e) {
+//            e.printStackTrace();
+//        }
 
-        System.out.println("Server Received: " + msg);
+
         session.write("Server Send: " + msg);
         //sessions.add(session);
     }
@@ -55,7 +56,10 @@ public class MinaProtocolHandler extends IoHandlerAdapter {
     @Override
     public void sessionIdle(IoSession session, IdleStatus status)
             throws Exception {
-        System.out.println("IDLE "+session.getIdleCount(status));
+//        System.out.println("IDLE "+session.getIdleCount(status));
+//        System.out.println("服务端调用了idle……，发送心跳包，验证客户端是否荏苒存活");
+//        session.write("服务端发送心跳包");
+
     }
     @Override
     public void sessionOpened(IoSession session) throws Exception {

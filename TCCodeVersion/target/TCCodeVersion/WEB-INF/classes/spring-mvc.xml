@@ -120,7 +120,9 @@
     </bean>
 
     <!-- The IoHandler implementation -->
-    <bean id="minaHandler" class="com.tccv.mina.MinaProtocolHandler" />
+    <!--<bean id="minaHandler" class="com.tccv.mina.MinaProtocolHandler" />-->
+    <bean id="minaHandler" class="com.tccv.mina.POSHandler" />
+
 
     <!-- the IoFilters -->
     <bean id="executorFilter" class="org.apache.mina.filter.executor.ExecutorFilter" />
@@ -132,9 +134,12 @@
     <bean id="codecFilter" class="org.apache.mina.filter.codec.ProtocolCodecFilter">
         <constructor-arg>
             <!--<bean class="org.apache.mina.filter.codec.textline.TextLineCodecFactory" />-->
-            <bean class="com.tccv.mina.CodeFactory" />
+            <!--<bean class="com.tccv.mina.CodeFactory" />-->
+            <bean class="com.tccv.mina.POScodecFactory" />
+
         </constructor-arg>
     </bean>
+
 
     <bean id="loggingFilter" class="org.apache.mina.filter.logging.LoggingFilter" />
 
