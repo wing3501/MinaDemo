@@ -1,7 +1,10 @@
 package com.tccv.mina;
 
 import com.tccv.mina.codec.appPOS.codec.AppPOSmsgDecoder;
+import com.tccv.mina.codec.appPOS.codec.AppPOSmsgEncoder;
+import com.tccv.mina.codec.appPOS.codec.AppPOSresultDncoder;
 import com.tccv.mina.codec.appPOS.codec.AppPOSresultEncoder;
+import com.tccv.mina.codec.appPOS.pojo.AppPOSmsg;
 import com.tccv.mina.codec.appPOS.pojo.AppPOSresult;
 import com.tccv.mina.codec.smartPOS.codec.SmartPOSmsgDecoder;
 import com.tccv.mina.codec.smartPOS.codec.SmartPOSmsgEncoder;
@@ -35,11 +38,11 @@ public class POScodecFactory extends DemuxingProtocolCodecFactory {
             super.addMessageDecoder(AppPOSmsgDecoder.class);
 
         } else {
-//            super.addMessageEncoder(AppPOSmsg.class, AppPOSmsgEncoder.class);
-//            super.addMessageDecoder(AppPOSresultDncoder.class);
+            super.addMessageEncoder(AppPOSmsg.class, AppPOSmsgEncoder.class);
+            super.addMessageDecoder(AppPOSresultDncoder.class);
 
-            super.addMessageEncoder(SmartPOSmsg.class, SmartPOSmsgEncoder.class);
-            super.addMessageDecoder(SmartPOSresultDecoder.class);
+//            super.addMessageEncoder(SmartPOSmsg.class, SmartPOSmsgEncoder.class);
+//            super.addMessageDecoder(SmartPOSresultDecoder.class);
         }
     }
 }

@@ -48,6 +48,7 @@ public class AppPOSmsgEncoder implements MessageEncoder<AppPOSmsg> {
         out.write(buffer);
     }
 
+
     public static void main(String[] args) throws CharacterCodingException {
         Charset charset = Charset.forName("utf-8");
         CharsetEncoder ce =

@@ -38,8 +38,43 @@ public class AppPOSmsgDecoder implements MessageDecoder {
         this.charset = charset;
     }
 
+
+    // 以16进制打印出byte数组
+    public static void printHexString( byte[] b)
+    {
+
+        for (int i = 0; i < b.length; i++)
+        {
+            String hex = Integer.toHexString(b[i] & 0xFF);
+            if (hex.length() == 1)
+            {
+                hex = '0' + hex;
+            }
+            System.out.print(hex.toUpperCase() );
+//            System.out.print(hex.toUpperCase() + " ");
+        }
+        System.out.println();
+    }
+
+    //打印iobuffer中的数据
+    public static void printIoBuffer(IoBuffer ioBuffer) {
+        byte[] bytes = new byte[ioBuffer.remaining()];
+        ioBuffer.get(bytes, 0, bytes.length);
+
+        printHexString(bytes);
+    }
+
     @Override
     public MessageDecoderResult decodable(IoSession ioSession, IoBuffer ioBuffer) {
+
+        //仅作为调试使用,打印
+        printIoBuffer(ioBuffer);
+        ioBuffer.flip();
+
+
+
+
+
 
         Context ctx = getContext(ioSession);
         if (ctx.getMark() == 126){

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JMeter_mina:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JMeter_mina_jar</output-path>
+    <root id="archive" name="JMeter_mina.jar">
+      <element id="module-output" name="JMeter_mina" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ApacheJMeter_core.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/logkit-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ApacheJMeter_tcp.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ApacheJMeter_java.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mina-core-2.0.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slf4j-api-1.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jorphan.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/avalon-framework-4.1.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

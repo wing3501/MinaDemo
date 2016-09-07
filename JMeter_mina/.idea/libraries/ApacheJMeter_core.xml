@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="ApacheJMeter_core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ApacheJMeter_core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logkit-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheJMeter_tcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheJMeter_java.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mina-core-2.0.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jorphan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/avalon-framework-4.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

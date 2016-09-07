@@ -12,6 +12,7 @@ import org.apache.mina.filter.logging.MdcInjectionFilter;
 import org.apache.mina.transport.socket.nio.NioSocketConnector;
 import org.apache.poi.util.SystemOutLogger;
 
+import java.io.UnsupportedEncodingException;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.nio.charset.Charset;
@@ -87,7 +88,7 @@ public class MinaClientSupport {
         this.handler = handler;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 //        System.out.println("---------------------");
 //        MinaClientSupport client = new MinaClientSupport();
 //        MinaClientHandler handler = new MinaClientHandler();
@@ -99,10 +100,43 @@ public class MinaClientSupport {
 //        client.close();
 
         //测试软pos请求
-//        testAppPos();
+        testAppPos();
 
         //测试智能pos请求
-        testSmartPos();
+//        testSmartPos();
+
+
+//        CharsetEncoder ce = Charset.forName("utf-8").newEncoder();
+//        IoBuffer buffer = IoBuffer.allocate(100).setAutoExpand(true);
+//        buffer.putChar('+');
+//        buffer.putInt(22);
+//        String jsonbody = "{\"name\":\"SmartPOSmsg\"}";
+//        buffer.putString(jsonbody,ce);
+//
+//        buffer.flip();
+//
+//        byte[] bytes = new byte[buffer.remaining()];
+//        buffer.get(bytes, 0, bytes.length);
+
+
+//        System.out.println(jsonbody.getBytes("utf-8").length);
+//        printHexString(bytes);
+    }
+
+    // 以16进制打印出byte数组
+    public static void printHexString( byte[] b)
+    {
+
+        for (int i = 0; i < b.length; i++)
+        {
+            String hex = Integer.toHexString(b[i] & 0xFF);
+            if (hex.length() == 1)
+            {
+                hex = '0' + hex;
+            }
+            System.out.print(hex.toUpperCase() + " ");
+        }
+        System.out.println();
     }
 
 
@@ -143,6 +177,9 @@ public class MinaClientSupport {
         client.send(msg);
         client.close();
     }
+
+
+
 
 }
 
