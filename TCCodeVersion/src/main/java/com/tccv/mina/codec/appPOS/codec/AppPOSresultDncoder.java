@@ -13,6 +13,8 @@ import java.nio.charset.CharsetDecoder;
 /**
  * Created by ywy on 16/9/6.
  * 客户端使用的软POS返回结果解码器
+ *
+ * 注意:没有做缓存,这个类写法是有问题的
  */
 public class AppPOSresultDncoder implements MessageDecoder {
 

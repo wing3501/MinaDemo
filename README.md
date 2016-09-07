@@ -3,6 +3,10 @@
 ## Overview
 一个apache mina 的 Demo
 
+
+## 更新
+2016.9.7 更新多路分离解码器，支持两套协议
+
 ## 项目
 
 TCCodeVersion web服务端

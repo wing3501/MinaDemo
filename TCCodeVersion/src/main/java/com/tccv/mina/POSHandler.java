@@ -4,6 +4,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.tccv.core.util.json.JsonUtils;
 import com.tccv.mina.codec.appPOS.pojo.AppPOSmsg;
 import com.tccv.mina.codec.appPOS.pojo.AppPOSresult;
+import com.tccv.mina.codec.smartPOS.pojo.SmartPOSmsg;
+import com.tccv.mina.codec.smartPOS.pojo.SmartPOSresult;
 import com.tccv.pojo.AppVersion;
 import com.tccv.service.AppVersionService;
 import org.apache.mina.core.service.IoHandlerAdapter;
@@ -49,6 +51,20 @@ public class POSHandler extends IoHandlerAdapter {
             }
             appPOSresult.setJsonMsg(result);
             session.write(appPOSresult);
+        }else if (message instanceof SmartPOSmsg){
+            SmartPOSmsg msg = (SmartPOSmsg)message;
+            System.out.println("server receivird:" + msg.getBodyContent());
+
+            SmartPOSresult result = new SmartPOSresult();
+            result.setHeader('@');
+            result.setJsonMsg("测试信息测试信息");
+
+            try {
+                result.setBodyLength("测试信息测试信息".getBytes("utf-8").length);
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            session.write(result);
         }
 
     }

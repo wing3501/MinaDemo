@@ -73,7 +73,7 @@ public class AppPOSmsgDecoder implements MessageDecoder {
     public MessageDecoderResult decode(IoSession ioSession, IoBuffer ioBuffer, ProtocolDecoderOutput out) throws Exception {
         Context ctx = getContext(ioSession);
         CharsetDecoder cd = charset.newDecoder();
-        int matchCount = ctx.getMatchCount();//用来统计读到了第几个字符
+        int matchCount = ctx.getMatchCount();//用来统计读到了第几个字节
         int line = ctx.getLine();//用来统计读到了第几行
         IoBuffer buffer = ctx.innerBuffer;//缓存每一行的数据
         char mark = ctx.getMark();

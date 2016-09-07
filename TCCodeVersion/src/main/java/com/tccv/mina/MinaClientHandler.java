@@ -1,6 +1,7 @@
 package com.tccv.mina;
 
 import com.tccv.mina.codec.appPOS.pojo.AppPOSresult;
+import com.tccv.mina.codec.smartPOS.pojo.SmartPOSresult;
 import org.apache.mina.core.filterchain.IoFilter;
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IoSession;
@@ -30,6 +31,9 @@ public class MinaClientHandler extends IoHandlerAdapter {
         if (message instanceof AppPOSresult){
             AppPOSresult result = (AppPOSresult)message;
             System.out.println("客户端收到消息: " + result.getJsonMsg());
+        }else if (message instanceof SmartPOSresult){
+            SmartPOSresult result = (SmartPOSresult)message;
+            System.out.println("客户端收到消息: " +result.getHeader()+"===>"+ result.getJsonMsg());
         }
 
     }
