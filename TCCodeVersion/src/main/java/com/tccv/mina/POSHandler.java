@@ -35,14 +35,23 @@ public class POSHandler extends IoHandlerAdapter {
             System.out.println("server receivird:" + msg.getJsonMsg());
 
             //模拟返回
-            List<AppVersion> list = appVersionService.selectAllApp();
+//            List<AppVersion> list = appVersionService.selectAllApp();
             String result = "";
-            try {
-                result = JsonUtils.mapper.writeValueAsString(list);
+//            try {
+//                result = JsonUtils.mapper.writeValueAsString(list);
 //                result = "{\"name\":\"styf\"}";
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
+//            } catch (JsonProcessingException e) {
+//                e.printStackTrace();
+//            }
+
+
+            StringBuffer sb = new StringBuffer();
+            for (int i = 0; i < 1000; i++) {
+                sb.append(i).append(" ");
             }
+            result = sb.toString();
+
+
             AppPOSresult appPOSresult = new AppPOSresult();
             try {
                 appPOSresult.setBodyLength(result.getBytes("utf-8").length);
